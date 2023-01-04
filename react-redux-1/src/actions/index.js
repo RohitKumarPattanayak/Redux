@@ -1,13 +1,6 @@
-export const addMark = (value) => {
+export const changeMark = (type, value) => {
   return {
-    type: "add",
-    value: value,
-  };
-};
-
-export const subMark = (value) => {
-  return {
-    type: "sub",
+    type: type,
     value: value,
   };
 };
